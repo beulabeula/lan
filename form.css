@@ -1,0 +1,113 @@
+#container{
+    height: 850px;
+    width: 1350px;
+    border: 1px solid black;
+    margin: auto;
+   background-color: rgba(0, 0, 0, 0);
+    background-image: url(./WhatsApp\ Image\ 2023-01-10\ at\ 10.10.24\ AM.jpeg);
+    background-size: cover;
+}
+#child{
+    height: 750px;
+    width: 870px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px gray;
+    margin:auto;
+    margin-top: 50px;
+    background-color: black;
+    background-size: cover;
+    opacity: 0.8;
+    cursor:pointer;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+ol{
+    color: white;
+}
+label{
+    padding: 25px 25px 25px 0;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+   box-shadow: 5px 5px 5px gainsboro;
+    background-color: rgba(0, 0, 0, 0.477);
+    box-sizing: border-box;
+    color: white;
+    font-size: 15px;
+}
+
+input[type=text]{ 
+    margin-left: 80px; 
+    padding: 13px;
+    width: 400px;
+    border-radius: 15px;
+}
+input[type=uname]{
+   margin-left: 53px;
+   padding: 13px;
+   width: 400px;
+   border-radius: 15px;
+ }
+input[type=password]{ 
+    padding: 13px;
+    width: 400px;
+    margin-left: 58px;
+    border-radius: 15px;
+}
+input[type=email]{
+    margin-left: 88px;
+    padding: 13px;
+    width: 400px;
+    border-radius:15px;
+ 
+}
+input[type=tel]{
+    margin-left: 51px; 
+    padding: 13px;
+    width: 400px;  
+    border-radius:15px; 
+}
+
+input[type=submit]{
+    width: 200px;
+    height: 50px;
+    margin-top: -5px;
+    margin-left: 550px;
+    color: black;
+    background-color: blue;
+    box-shadow: 2px 2px 2px blue;
+    border: none;
+}
+input:hover{
+    background-color:rgba(255, 255, 255, 0.053);
+}
+input[type=submit]:hover{
+    background-color: green;
+}
+@media only screen and (min-width:500px) {
+    #container{
+        width: 100%;
+       
+       
+    }
+}
+#name_error,#uname_error,#pwd_error,#mobile_error{
+    margin-left: 170px;
+    color: red;
+    display: none;
+    
+}
+#mail_error{
+    margin-left: 170px;
+    color:red;
+    display: none; 
+}
+
+
